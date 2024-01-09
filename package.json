@@ -3,7 +3,8 @@
   "version": "2.0",
   "private": true,
   "dependencies": {
-    "concurrently": "latest"
+    "concurrently": "latest",
+    "vite": "^5.0.11"
   },
   "scripts": {
     "start": "npm install && concurrently \"cd ./backend && npm install && npm start\" \"cd ./frontend && npm install && npm run dev\""
